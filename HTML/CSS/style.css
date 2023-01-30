@@ -1,14 +1,8 @@
-.booknowicon{
-    width: 25px;
-    height: 25px;
-}
-
-.servicesicon{
-    width: 25px;
-    height: 25px;
-}
 .login_textbox{
     align-content: center;
+}
+body{
+  background-color: antiquewhite;
 }
 
 .header {

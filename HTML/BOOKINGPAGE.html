@@ -7,6 +7,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/style.css">
     <title>Book Now</title>
+
+<style>
+                  body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: antiquewhite;
+      }
+      
+            header {
+        background-color: hsl(189, 74%, 56%);
+        color: white;
+        text-align: left;
+        padding: 1em;
+      }
+    
+      nav {
+        display: flex;
+        justify-content: space-evenly;
+      
+      }
+    
+    
+      nav a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        margin-right: 1em;
+        display: flex;
+      }
+      main {
+        padding: 1em;
+        text-align: center;
+      }
+    
+      footer {
+        background-color: hsl(189, 74%, 56%);
+        color: white;
+        text-align: center;
+        padding: 1em;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+      }
+</style>
+    
 <body class="main_bg">
     <div class="header">
         <header>
@@ -63,13 +108,15 @@
                     <option value="2"> Bank Transfer</option>  
                     </select>
                 </div>
-                <div id="submit">
-                    <input type="submit" value="SUBMIT" id="submit">
-                </div>
-
+                <a href="SUCCESSPAGE.html">           
+                    <button type="button" value="SUBMIT" id="submit">Submit Booking</button>
+                </a>
             </form>
         </div>
     </div>
 
     </body>
+    <footer>
+        <p>Copyright © 2023</p>
+      </footer>
 </html>
