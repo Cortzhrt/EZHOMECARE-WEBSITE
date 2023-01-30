@@ -1,0 +1,61 @@
+.booknowicon{
+    width: 25px;
+    height: 25px;
+}
+
+.servicesicon{
+    width: 25px;
+    height: 25px;
+}
+.login_textbox{
+    align-content: center;
+}
+
+.header {
+    background-color: hsl(189, 74%, 56%);
+    color: white;
+    text-align:center;
+    padding: 1em;
+  }
+
+  .headernavigation {
+    display: flex;
+    justify-content: space-evenly;
+  
+  }
+
+
+  .nav_a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 1em;
+    display: flex;
+    
+  }
+
+  .main {
+    padding: 1em;
+    text-align: center;
+  }
+
+  .footer {
+    background-color: hsl(189, 74%, 56%);
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .main_bg{
+    text-align: center;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display:list-item;
+    flex-wrap:inherit;
+    text-align: center;
+  }
